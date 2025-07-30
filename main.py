@@ -11,7 +11,7 @@ def run_maigret(username):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python main.py --email btrickett26408@yahoo.com | --username brickett268")
+        print("Usage: python main.py --email test@gmail.com | --username johndoe")
         sys.exit(1)
 
     option = sys.argv[1]
